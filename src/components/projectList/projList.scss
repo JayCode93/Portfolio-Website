@@ -1,0 +1,21 @@
+@import '../../global.scss';
+
+.projList{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    @include mobile {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+
+
+    &.active{
+        background-color: black;
+        color: white;
+    }
+}
